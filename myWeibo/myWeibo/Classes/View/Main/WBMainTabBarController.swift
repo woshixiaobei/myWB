@@ -23,7 +23,13 @@ extension WBMainTabBarController {
     //添加多个子控制器
    private func setupChildControllers() {
         
-        let array = [["clsName":"WBHomeViewController","title":"首页","imageName":"home"]]
+        let array = [["clsName":"WBHomeViewController","title":"首页","imageName":"home"],
+                     ["clsName":"WBMessageViewController","title":"消息","imageName":"message_center"],
+                     ["clsName":"WBDiscoverViewController","title":"发现","imageName":"discover"],
+                 ["clsName":"WBProflieViewController","title":"我","imageName":"profile"],
+                 
+                     
+                     ]
         
         var arrayM = [UIViewController]()
         for dict in array {
@@ -50,6 +56,9 @@ extension WBMainTabBarController {
         vc.tabBarItem.image = UIImage(named: "tabbar_" + imageName)
         vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "_selected")?.withRenderingMode(.alwaysOriginal)
         
+        //设置tabbar 的字体颜色
+        vc.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.orange()], for: .highlighted)
+      
         let nav = WBMainNavViewController(rootViewController: vc)
         return nav
         

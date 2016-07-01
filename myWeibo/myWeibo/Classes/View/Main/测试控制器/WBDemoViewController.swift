@@ -12,7 +12,7 @@ class WBDemoViewController: WBBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       navigationItem .title = "第\( navigationController?.childViewControllers.count ?? 0)个"
+      title = "第\(navigationController?.childViewControllers.count ?? 0)个"
     }
     //MARK:显示下一个
    @objc private func showNext() {
@@ -25,9 +25,10 @@ class WBDemoViewController: WBBaseViewController {
 
 extension WBDemoViewController {
     override func setupUI() {
+        super.setupUI()
         view.backgroundColor = UIColor.white()
        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "下一个", target: self, action: #selector(showNext))
+        navItem.rightBarButtonItem = UIBarButtonItem(title: "下一个", target: self, action: #selector(showNext))
     }
 
 }

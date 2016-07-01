@@ -13,8 +13,18 @@ class WBBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.cz_random()
+        setupUI()
     }
 
     
+}
+
+//MARK:设置界面
+extension WBBaseViewController {
+    func setupUI() {
+        
+        view.backgroundColor = UIColor.cz_random()
+    }
+
+
 }

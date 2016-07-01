@@ -1,5 +1,5 @@
 //
-//  WBMainNavViewController.swift
+//  WBDemoViewController.swift
 //  myWeibo
 //
 //  Created by 小贝 on 16/7/1.
@@ -8,18 +8,16 @@
 
 import UIKit
 
-class WBMainNavViewController: UINavigationController {
-
+class WBDemoViewController: WBBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        //navigationBar.isHidden = true
         
     }
+    
 }
 
-extension WBMainNavViewController {
+extension WBDemoViewController {
 
     
-
 
 }

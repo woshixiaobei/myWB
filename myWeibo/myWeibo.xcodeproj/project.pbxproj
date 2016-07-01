@@ -30,6 +30,7 @@
 		0B1D632A1D26705E00E85763 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D631B1D26705E00E85763 /* UIViewController+CZAddition.m */; };
 		0B1D632B1D26705E00E85763 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D631D1D26705E00E85763 /* Bundle+Extensions.swift */; };
 		0B1D632C1D26705E00E85763 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D631E1D26705E00E85763 /* UIBarButtonItem+Extensions.swift */; };
+		0B1D63311D269BB200E85763 /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D63301D269BB200E85763 /* WBDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		0B1D631D1D26705E00E85763 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		0B1D631E1D26705E00E85763 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
 		0B1D632F1D2673D400E85763 /* mySwift-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySwift-bridge.h"; sourceTree = "<group>"; };
+		0B1D63301D269BB200E85763 /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		0B1D62BC1D26657800E85763 /* 测试控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				0B1D63301D269BB200E85763 /* WBDemoViewController.swift */,
 			);
 			path = "测试控制器";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B1D63261D26705E00E85763 /* UIColor+CZAddition.m in Sources */,
+				0B1D63311D269BB200E85763 /* WBDemoViewController.swift in Sources */,
 				0B1D631F1D26705E00E85763 /* NSArray+Log.m in Sources */,
 				0B1D62A21D26653700E85763 /* AppDelegate.swift in Sources */,
 				0B1D63271D26705E00E85763 /* UILabel+CZAddition.m in Sources */,

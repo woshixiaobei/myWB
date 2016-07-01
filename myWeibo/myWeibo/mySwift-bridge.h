@@ -6,8 +6,4 @@
 //  Copyright © 2016年 小贝. All rights reserved.
 //
 
-#ifndef mySwift_bridge_h
-#define mySwift_bridge_h
-
-
-#endif /* mySwift_bridge_h */
+#import "CZAdditions.h"

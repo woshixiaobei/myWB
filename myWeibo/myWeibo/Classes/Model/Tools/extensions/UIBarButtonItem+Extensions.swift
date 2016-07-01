@@ -6,7 +6,7 @@
 //  Copyright © 2016年 小贝. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension UIBarButtonItem {
 

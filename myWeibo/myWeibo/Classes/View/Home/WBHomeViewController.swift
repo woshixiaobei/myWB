@@ -14,7 +14,7 @@ class WBHomeViewController: WBBaseViewController {
     //MARK:显示好友
     @objc private func showFriends() {
         let vc = WBDemoViewController()
-        vc.hidesBottomBarWhenPushed = true
+        //vc.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(vc, animated: true)
     }
 }

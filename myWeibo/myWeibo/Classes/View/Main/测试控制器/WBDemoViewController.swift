@@ -9,15 +9,16 @@
 import UIKit
 
 class WBDemoViewController: WBBaseViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        
+//    }
     
 }
 
 extension WBDemoViewController {
-
-    
+    override func setupUI() {
+        view.backgroundColor = UIColor.white()
+    }
 
 }

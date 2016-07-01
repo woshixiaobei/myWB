@@ -18,7 +18,14 @@ class WBMainNavViewController: UINavigationController {
 }
 
 extension WBMainNavViewController {
-
+    
+    //重写push方法,所有的push方法都会调用此方法
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if childViewControllers.count > 0 {
+            viewController.hidesBottomBarWhenPushed = true
+        }
+        super.pushViewController(viewController, animated: true)
+    }
     
 
 

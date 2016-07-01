@@ -18,7 +18,7 @@ class WBMainTabBarController: UITabBarController {
     }
 
     //撰写按钮的监听方法
-    func composeStatus() {
+   @objc private func composeStatus() {
     
         print("撰写微博")
     
